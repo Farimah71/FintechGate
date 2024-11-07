@@ -1,0 +1,35 @@
+.icon-button {
+    @apply border-none bg-gray-100 dark:bg-dark text-primary/80 hover:!text-primary duration-500 flex-shrink-0
+}
+
+.btn-delete {
+    @apply !text-danger/80 hover:!text-danger
+}
+
+.btn-cancel {
+    @apply !text-danger/80 hover:!text-danger
+}
+
+.btn-disabled {
+    @apply !text-secondary-active dark:disabled:!text-primary/30 hover:!text-secondary-active !bg-transparent
+}
+
+.custom-btn {
+    @apply border-none lg:h-10 font-semibold h-8 px-2
+}
+
+.btn-primary {
+    @apply bg-primary/85 hover:!bg-primary/70 dark:hover:!bg-primary/95
+}
+
+.btn-default {
+    @apply bg-gray-200 text-gray-600 dark:bg-dark dark:text-gray-500
+}
+
+.btn-primary-disabled{
+    @apply hover:disabled:!bg-primary/65 dark:bg-primary/50 dark:hover:disabled:!bg-primary/50
+}
+
+.btn-default-disabled{
+    @apply disabled:bg-gray-200 disabled:text-gray-400 dark:disabled:bg-dark dark:disabled:text-gray-700
+}

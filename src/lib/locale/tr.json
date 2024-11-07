@@ -1,0 +1,309 @@
+{
+  "project_title": "FintechGate",
+  "hero": {
+    "title": "Finansmanınızın Kontrolünü Elinize Alın. "
+  },
+  "error": {
+    "is_required": "{{name}} gereklidir",
+    "passwords_dont_match": "Şifre ve Şifreyi Onayla eşleşmiyor",
+    "valid_phone": "Lütfen geçerli bir telefon numarası girin",
+    "password_format": "Sayılardan, büyük ve küçük harflerden ve özel sembollerden oluşan bir karışım kullanın",
+    "min": "Asgari",
+    "max": "Maksimum",
+    "symbols": "semboller",
+    "email/phone_format": "Yanlış e-posta/telefon biçimi",
+    "email_format": "Yanlış e-posta biçimi"
+  },
+  "button": {
+    "continue": "Devam etmek",
+    "submit": "Göndermek",
+    "cancel": "İptal etmek",
+    "cancel_popconfirm": "Onaylamak",
+    "back": "Geri",
+    "change_password": "Şifre değiştir",
+    "return_home": "Eve Dönüş",
+    "dark": "Karanlık",
+    "light": "Işık",
+    "system": "Sistem",
+    "prebuilts": "Önceden",
+    "buy_now": "Şimdi al",
+    "get_help": "Yardım Alın",
+    "create": "Yaratmak",
+    "save": "Değişiklikleri kaydet",
+    "discard": "At",
+    "next": "Sonraki",
+    "add": "Eklemek",
+    "accept": "Kabul etmek",
+    "new": "Yeni",
+    "ok": "Tamam",
+    "deactivate": "Devre dışı bırak",
+    "delete": "Silmek"
+  },
+  "page_title": {
+    "signin": "Kayıt olmak",
+    "on_final_step": "Son Bir Adım!",
+    "forgot_password": "Parolanızı mı unuttunuz ?",
+    "getting_closer": "Yaklaşıyor!",
+    "change_password": "Şifrenizi Değiştirin",
+    "dashboard": "Kontrol Paneli",
+    "profile": "Profil",
+    "users": "Kullanıcılar",
+    "user": "Kullanıcı",
+    "psp": "PSP",
+    "integrator": "Entegratör",
+    "invoice": "Fatura",
+    "security": "Güvenlik",
+    "payment": "Ödeme",
+    "transaction": "İşlem",
+    "website": "Web sitesi"
+  },
+  "page_subtitle": {
+    "need_verify_email": "E-postanızı Doğrulamamız Gerekiyor",
+    "need_verify_phone": "Telefon Numaranızı Doğrulamamız Gerekiyor",
+    "enter_your_info": "Şifrenizi sıfırlamak için bilgilerinizi giriniz.",
+    "choose_new_pass": "Yeni bir şifre seçebilirsiniz",
+    "dashboard": "Kontrol Paneli",
+    "profile": "Profil",
+    "enter_info": "Dalış için bu formu doldurun!"
+  },
+  "sidebar": {
+    "dashboard": "Kontrol Paneli",
+    "psp": "PSP",
+    "integrator": "Entegratör",
+    "website": "Web sitesi",
+    "transaction": "İşlem",
+    "invoice": "Fatura",
+    "payment": "Ödeme",
+    "security": "Güvenlik",
+    "user": "Kullanıcı"
+  },
+  "divider": {
+    "or_with": "Veya e-posta / telefon ile",
+    "or": "Veya"
+  },
+  "input": {
+    "advanced_search_by": {
+      "placeholder": "Gelişmiş arama şuna göre: {{column}}"
+    },
+    "advanced_search": {
+      "placeholder": "Gelişmiş arama"
+    },
+    "email_or_phone": {
+      "label": "E-posta veya Telefon",
+      "placeholder": "E-posta/Telefon"
+    },
+    "password": {
+      "label": "Şifre",
+      "placeholder": "Şifre"
+    },
+    "confirm_password": {
+      "label": "Şifreyi Onayla",
+      "placeholder": "Şifre onayı"
+    },
+    "new_password": {
+      "label": "Yeni Şifre",
+      "placeholder": "Yeni Şifre"
+    },
+    "repeat_new_password": {
+      "label": "Yeni Şifreyi Tekrarla",
+      "placeholder": "Yeni şifreyi tekrarla"
+    },
+    "firstName": {
+      "label": "İlk adı",
+      "placeholder": "İlk adı"
+    },
+    "surname": {
+      "label": "Soyadı",
+      "placeholder": "Soyadı"
+    },
+    "email": {
+      "label": "E-posta",
+      "placeholder": "adınız@example.com"
+    },
+    "phone_number": {
+      "label": "Telefon numarası",
+      "placeholder": "Cep numarası"
+    },
+    "phone": {
+      "label": "Telefon",
+      "placeholder": "Cep numarası"
+    },
+    "project": {
+      "label": "Proje"
+    },
+    "role": {
+      "label": "Rol"
+    },
+    "code": {
+      "label": "kod",
+      "placeholder": "Kod"
+    },
+    "title": {
+      "label": "başlık",
+      "placeholder": "Başlık"
+    },
+    "commission": {
+      "label": "komisyon",
+      "placeholder": "Komisyon"
+    },
+    "description": {
+      "label": "Tanım",
+      "placeholder": "Ayrıntılı açıklamanızı buraya girin..."
+    },
+    "address": {
+      "label": "adres",
+      "placeholder": "Adresi buraya girin..."
+    },
+    "tax_id": {
+      "label": "vergi numarası",
+      "placeholder": "Vergi Numarası"
+    },
+    "tax_office": {
+      "label": "vergi dairesi",
+      "placeholder": "Vergi dairesi"
+    },
+    "iban": {
+      "label": "IBAN",
+      "placeholder": "IBAN"
+    },
+    "iban_owner": {
+      "label": "IBAN sahibi",
+      "placeholder": "IBAN sahibi"
+    },
+    "invoice_date": {
+      "label": "Fatura tarihi"
+    },
+    "psp_id": {
+      "label": "PSP"
+    },
+    "integrator_id": {
+      "label": "Entegratör"
+    },
+    "payment_date": {
+      "label": "Ödeme tarihi"
+    },
+    "url": {
+      "label": "URL'si",
+      "placeholder": "Web sitesi URL'si"
+    },
+    "psp": {
+      "label": "PSP"
+    }
+  },
+  "select": {
+    "placeholder": "Seçmek için Ara"
+  },
+  "link": {
+    "forgot_password": "Parolanızı mı unuttunuz ?",
+    "signup": "Üye olmak",
+    "terms": "Şartlar",
+    "plans": "Planlar",
+    "contact_us": "Bize Ulaşın"
+  },
+  "text": {
+    "email_sent": "E-postanıza gönderilen e-posta",
+    "not_a_member": "Henüz üye değil misiniz?",
+    "check_phone_1": "Şuraya bir doğrulama kodu gönderildi: ",
+    "check_phone_2": "Telefonunuza bir doğrulama kodu gönderildi",
+    "enter_code": "SMS kodunuz anahtardır! ",
+    "please_wait": "Lütfen bekleyin...",
+    "count_down_label": "Kalan süre:",
+    "resend_code": "Kodu yeniden gönder",
+    "check_spam": "Bulamıyor musunuz? ",
+    "rest_pass_email_sent": "Şifre sıfırlama bağlantısı gönderildi. ",
+    "oops": "Hata!",
+    "cant_find_page": "O sayfayı bulamıyoruz.",
+    "loading": "Yükleniyor...",
+    "no_data": "Veri Yok",
+    "price": "Fiyat",
+    "filter_options": "Filtre Seçenekleri",
+    "item": "öğe",
+    "items": "öğeler",
+    "total": "Toplam",
+    "found": "kurmak",
+    "offline": "Çevrimdışısınız",
+    "name": "İsim",
+    "email": "E-posta",
+    "phone": "Telefon"
+  },
+  "toast": {
+    "well_done": "Tebrikler!",
+    "pass_changed": "Şifreniz başarıyla değiştirildi.",
+    "data_saved": "Verileriniz başarıyla kaydedildi.",
+    "something_wrong": "Bir şeyler ters gitti"
+  },
+  "user_profile_dropdown": {
+    "my_profile": "Profilim",
+    "my_projects": "Projelerim",
+    "my_subscriptions": "Aboneliklerim",
+    "referrals": "Tavsiyeler",
+    "billing": "Faturalandırma",
+    "payments": "Ödemeler",
+    "statements": "İfadeler",
+    "my_statements": "Açıklamalarım",
+    "notifications": "Bildirimler",
+    "language": "Dil",
+    "account_settings": "Hesap Ayarları",
+    "sign_out": "Oturumu Kapat"
+  },
+  "language": {
+    "en": "İngilizce",
+    "ir": "Farsça",
+    "es": "İspanyol",
+    "de": "Almanca",
+    "tr": "Türkçe",
+    "fr": "Fransızca"
+  },
+  "popover": {
+    "show_sidebar": "Kenar çubuğu menüsünü göster",
+    "explore": "FintechGate'i keşfedin",
+    "commission_set": "Komisyon ayarı",
+    "deactivate": "Devre dışı bırak"
+  },
+  "popconfirm": {
+    "attention": "Dikkat",
+    "deactive": "Bu öğeyi devre dışı bırakıyorsunuz. ",
+    "delete": "Bu öğeyi siliyorsunuz. ",
+    "cancel": "Bu öğeyi iptal ediyorsunuz. "
+  },
+  "status_modal": {},
+  "badge": {
+    "active": "Aktif",
+    "inactive": "Etkin değil"
+  },
+  "table": {
+    "action": "Aksiyon",
+    "name": "isim",
+    "status": "durum",
+    "role": "rol",
+    "email": "e-posta",
+    "title": "Başlık",
+    "code": "Kod",
+    "commission": "Komisyon",
+    "tax_id": "Vergi numarası",
+    "tax_office": "Vergi dairesi",
+    "address": "Adres",
+    "iban": "İban",
+    "url": "URL'si",
+    "psp": "PSP",
+    "integrator": "entegratör",
+    "website": "Web sitesi",
+    "amount": "Miktar",
+    "result_detail": "Sonuç ayrıntısı",
+    "invoiceNumber": "Fatura numarası",
+    "totalAmount": "Toplam tutar",
+    "invoiceDate": "Fatura tarihi",
+    "paymentNumber": "Ödeme numarası",
+    "paymentDate": "Ödeme tarihi",
+    "search": {
+      "invoice_number": "faturaNo",
+      "payment_number": "ödemeNo"
+    }
+  },
+  "filter": {
+    "day": "Gün",
+    "week": "Hafta",
+    "year": "Yıl",
+    "today": "Bugün"
+  }
+}

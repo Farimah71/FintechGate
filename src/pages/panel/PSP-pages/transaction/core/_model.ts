@@ -1,0 +1,31 @@
+export interface TransactionModel {
+  id?: number;
+  webSiteId: number;
+  integratorId: number;
+  pspid: number;
+  transactionTypeId: number;
+  panMasked: string;
+  transactionToken: string;
+  transactionNumber: null;
+  refrenceNumber: null;
+  transactionStatusId: number;
+  transactionDate: string;
+  transactionApproveDate: string;
+  authCode: null;
+  batchNo: string;
+  hostDate: null;
+  resultCode: string;
+  resultDetail: string;
+  panCode: string;
+  currencyCode: string;
+  amount: number;
+  netAmount: number;
+  orderId: string;
+  pspcommissionPercent: number;
+  pspcommissionAmount: number;
+  integratorCommissionPercent: number;
+  integratorCommissionAmount: number;
+  netOurCommissionAmount: number;
+  installment: number;
+  ipAddress: string;
+}

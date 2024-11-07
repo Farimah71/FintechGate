@@ -1,0 +1,297 @@
+/* Public styles */
+.dark .show-dark {
+    display: block;
+}
+
+.show-dark {
+    display: none;
+}
+
+.dark .show-light {
+    display: none;
+}
+
+.auth-bg {
+    background-image: url('../assets/images/bg/light-shape.jpg');
+}
+
+.dark .auth-bg {
+    background-image: url('../assets/images/bg/dark-shape.jpg');
+}
+
+.active-link .link-icon {
+    color: var(--primary);
+}
+
+.active-link .link-label {
+    color: white;
+}
+
+/* ++++++++++ Scrollbar Customization ++++++++++ */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    background-color: #bbbfca;
+}
+
+.no-scroll {
+    scrollbar-width: 0;
+}
+
+.no-scroll::-webkit-scrollbar {
+    width: 0;
+}
+
+.scroll-element {
+    scrollbar-width: thin !important;
+    scrollbar-color: #bbbfca transparent !important;
+}
+
+.scroll-element::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: transparent;
+}
+
+.scroll-element::-webkit-scrollbar-thumb {
+    border-radius: 9999px !important;
+    background-color: #bbbfca;
+}
+
+/* Change autocomplete styles in WebKit */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.dark {
+
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    textarea:-webkit-autofill,
+    textarea:-webkit-autofill:hover,
+    textarea:-webkit-autofill:focus,
+    select:-webkit-autofill,
+    select:-webkit-autofill:hover,
+    select:-webkit-autofill:focus {
+        -webkit-text-fill-color: #F1F1F1;
+        -webkit-box-shadow: 0 0 0px 1000px #111318 inset;
+        transition: background-color 5000s ease-in-out 0s;
+    }
+}
+
+/* ++++++++++ Number Input Customize ++++++++++ */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+/* Antd styles */
+
+/************ Dropdown ************/
+.ant-dropdown-menu-submenu-expand-icon.ant-dropdown-menu-submenu-arrow {
+    margin-top: 6px;
+}
+
+.css-dev-only-do-not-override-btvdb5 .ant-layout-content,
+.ant-layout-content {
+    color: var(--text-color);
+}
+
+.ant-breadcrumb .ant-breadcrumb-separator {
+    color: var(--gray-300)
+}
+
+.ant-breadcrumb a {
+    color: var(--gray-500);
+    font-size: small;
+}
+
+.ant-breadcrumb a:hover {
+    color: var(--primary);
+    background-color: transparent;
+}
+
+.ant-breadcrumb li:last-child {
+    color: var(--text-color);
+    font-size: small;
+}
+
+.dark {
+    .ant-breadcrumb li:last-child {
+        color: var(--gray-400)
+    }
+
+    .ant-breadcrumb .ant-breadcrumb-separator {
+        color: var(--gray-800)
+    }
+
+    .ant-breadcrumb a {
+        color: var(--gray-700);
+    }
+
+    .ant-breadcrumb a:hover {
+        color: var(--primary);
+    }
+}
+
+/* ul.ant-menu.ant-menu-root.ant-menu-vertical.ant-menu-dark.ant-menu-inline-collapsed.css-dev-only-do-not-override-btvdb5,
+ .ant-menu.ant-menu-root.ant-menu-vertical.ant-menu-dark.ant-menu-inline-collapsed.css-dev-only-do-not-override-175do58 {
+    width: 100%;
+    margin:0;
+    padding: 0;
+    margin: auto;
+}
+
+li.ant-menu-item {
+    background-color: var(--dark-light) !important;
+    height: 100px !important;
+    line-height: 25px !important;
+    color: var(--gray-700) !important;
+    padding: 21px;
+}
+
+li.ant-menu-item:hover {
+    color: white !important;
+}
+
+li.ant-menu-item:hover .ant-menu-item-icon {
+    color: var(--primary) !important;
+}
+
+.ant-layout .ant-layout-sider-children .ant-menu.ant-menu-inline-collapsed {
+    width: fit-content;
+}
+
+li.ant-menu-item-selected {
+    color: white !important;
+    border: 1px solid rgb(32, 32, 32);
+}
+
+li.ant-menu-item-selected .ant-menu-item-icon {
+    color: var(--primary) !important;
+}
+
+.ant-menu-title-content {
+    opacity: 1 !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ant-menu-item-icon {
+    width: 25px;
+    height: 25px;
+    color: white !important;
+}
+
+.ant-menu-sub.ant-menu-inline {
+    background-color: black !important
+}
+
+.dark {
+    .ant-layout.ant-layout-has-sider>.ant-layout {
+        background-color: black;
+    }
+} */
+
+.ant-btn-primary {
+    @apply bg-primary disabled:bg-primary/70 hover:!bg-primary-active hover:disabled:!bg-primary/70 border-none dark:bg-primary-active dark:hover:!bg-primary-active/80 dark:disabled:bg-primary dark:disabled:hover:!bg-primary
+}
+
+/************ Select ************/
+.ant-select-selector .ant-select-selection-item {
+    font-weight: 450;
+}
+
+/************ Date picker ************/
+.ant-picker .ant-picker-input>input {
+    line-height: 1.9;
+}
+
+.ant-picker-input>input {
+    font-size: 14px !important;
+}
+
+/************ Table ************/
+.ant-table-thead .ant-table-cell {
+    color: var(--gray-500) !important;
+    text-transform: uppercase;
+    background-color: transparent !important;
+}
+
+.ant-table-cell {
+    color: var(--gray-700);
+}
+
+.ant-badge-status-text {
+    color: var(--gray-700) !important;
+}
+
+.dark {
+    .ant-table-thead .ant-table-cell {
+        color: var(--gray-700) !important;
+    }
+
+    .ant-table-cell {
+        color: var(--gray-500);
+    }
+
+    .ant-badge-status-text {
+        color: var(--gray-500) !important;
+    }
+}
+
+/************ Search input ************/
+:where(.css-btvdb5).ant-input-search-large .ant-input-search-button,
+:where(.css-dev-only-do-not-override-btvdb5).ant-input-search-large .ant-input-search-button,
+:where(.css-dev-only-do-not-override-175do58).ant-input-search-large .ant-input-search-button {
+    height: 50px !important;
+}
+
+.dark {
+    :where(.css-175do58).ant-input-search-large .ant-input-search-button {
+        height: 50px !important;
+    }
+
+    .ant-input-affix-wrapper.ant-input-affix-wrapper-lg.css-dev-only-do-not-override-175do58.ant-input-outlined,
+    .ant-input.ant-input-lg.css-dev-only-do-not-override-175do58,
+    .ant-input.ant-input-lg.css-175do58,
+    .ant-input-affix-wrapper.ant-input-affix-wrapper-lg.css-175do58.ant-input-outlined {
+        background-color: var(--dark) !important;
+    }
+}
+
+/************ Date picker ************/
+.ant-picker .ant-picker-input>input {
+    line-height: 1.9;
+}
+
+.ant-picker-input>input {
+    font-size: 14px !important;
+}
+
+.ant-btn {
+    height: 40px;
+}

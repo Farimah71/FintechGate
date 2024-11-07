@@ -1,0 +1,19 @@
+.select {
+    @apply w-full h-9 border dark:bg-[#141414] rounded-md border-gray-300 duration-300
+}
+
+.select-untouched {
+    @apply hover:!border-primary dark:border-white/20
+}
+
+.select-success {
+    @apply !border-[#04B440] hover:border-[#04B440]
+}
+
+.select-error {
+    @apply !border-danger hover:!border-danger/50
+}
+
+.select-disabled {
+    @apply bg-gray-200 dark:bg-dark dark:border-black/50
+}

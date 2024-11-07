@@ -1,0 +1,280 @@
+{
+  "project_title": "FintechGate",
+  "hero": {
+    "title": "Take Control of Your Finances. Track, Save, and Grow."
+  },
+  "error": {
+    "is_required": "{{name}} is required",
+    "passwords_dont_match": "Password and Confirm Password don't match",
+    "valid_phone": "Please enter a valid phone number",
+    "password_format": "Use a mix of numbers, uppercase & lowercase letters, special symbols",
+    "min": "Minimum",
+    "max": "Maximum",
+    "symbols": "symbols",
+    "email/phone_format": "Wrong email/phone format",
+    "email_format": "Wrong email format"
+  },
+  "button": {
+    "continue": "Continue",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "cancel_popconfirm": "Confirm",
+    "back": "Back",
+    "change_password": "Change password",
+    "return_home": "Return Home",
+    "dark": "Dark",
+    "light": "Light",
+    "system": "System",
+    "prebuilts": "Prebuilts",
+    "buy_now": "Buy Now",
+    "get_help": "Get Help",
+    "create": "Create",
+    "save": "Save changes",
+    "discard": "Discard",
+    "next": "Next",
+    "add": "Add",
+    "accept": "Accept",
+    "new": "New",
+    "ok": "Ok",
+    "deactivate": "Deactivate",
+    "delete": "Delete"
+  },
+  "page_title": {
+    "signin": "Sign in",
+    "on_final_step": "One Final Step!",
+    "forgot_password": "Forgot Password ?",
+    "getting_closer": "Getting Closer!",
+    "change_password": "Change Your Password",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "users": "Users",
+    "user": "User",
+    "psp": "PSP",
+    "integrator": "Integrator",
+    "invoice": "Invoice",
+    "security": "Security",
+    "payment": "Payment",
+    "transaction": "Transaction",
+    "website": "Website"
+  },
+  "page_subtitle": {
+    "need_verify_email": "We Need to Verify Your Email",
+    "need_verify_phone": "We Need to Verify Your Phone Number",
+    "enter_your_info": "Enter your info to reset your password.",
+    "choose_new_pass": "You can choose a new password",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "enter_info": "Fill out this form to dive in!"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "psp": "PSP",
+    "integrator": "Integrator",
+    "website": "Website",
+    "transaction": "Transaction",
+    "invoice": "Invoice",
+    "payment": "Payment",
+    "security": "Security",
+    "user": "User"
+  },
+  "divider": {
+    "or_with": "Or with email / phone",
+    "or": "Or"
+  },
+  "input": {
+    "advanced_search_by": {
+      "placeholder": "Advanced search by {{column}}"
+    },
+    "advanced_search": {
+      "placeholder": "Advanced search"
+    },
+    "email_or_phone": {
+      "label": "Email Or Phone",
+      "placeholder": "Email/Phone"
+    },
+    "password": { "label": "Password", "placeholder": "Password" },
+    "confirm_password": {
+      "label": "Confirm Password",
+      "placeholder": "Password confirmation"
+    },
+    "new_password": { "label": "New Password", "placeholder": "New password" },
+    "repeat_new_password": {
+      "label": "Repeat New Password",
+      "placeholder": "Repeat new password"
+    },
+    "firstName": {
+      "label": "First name",
+      "placeholder": "First name"
+    },
+    "surname": {
+      "label": "Surname",
+      "placeholder": "Surname"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "yourname@example.com"
+    },
+    "phone_number": {
+      "label": "Phone number",
+      "placeholder": "Mobile number"
+    },
+    "phone": {
+      "label": "Phone",
+      "placeholder": "Mobile number"
+    },
+    "project": { "label": "Project" },
+    "role": { "label": "Role" },
+    "code": { "label": "code", "placeholder": "Code" },
+    "title": { "label": "title", "placeholder": "Title" },
+    "commission": { "label": "commission", "placeholder": "Commission" },
+    "description": {
+      "label": "description",
+      "placeholder": "Enter your detailed description here..."
+    },
+    "address": {
+      "label": "address",
+      "placeholder": "Enter address here..."
+    },
+    "tax_id": {
+      "label": "tax ID",
+      "placeholder": "Tax ID"
+    },
+    "tax_office": {
+      "label": "tax office",
+      "placeholder": "Tax office"
+    },
+    "iban": {
+      "label": "IBAN",
+      "placeholder": "IBAN"
+    },
+    "iban_owner": {
+      "label": "IBAN owner",
+      "placeholder": "IBAN owner"
+    },
+    "invoice_date": {
+      "label": "Invoice date"
+    },
+    "psp_id": {
+      "label": "PSP"
+    },
+    "integrator_id": {
+      "label": "Integrator"
+    },
+    "payment_date": {
+      "label": "Payment date"
+    },
+    "url": { "label": "URL", "placeholder": "Website URL" },
+    "psp": { "label": "PSP" }
+  },
+  "select": {
+    "placeholder": "Search to Select"
+  },
+  "link": {
+    "forgot_password": "Forgot Password ?",
+    "signup": "Sign up",
+    "terms": "Terms",
+    "plans": "Plans",
+    "contact_us": "Contact Us"
+  },
+  "text": {
+    "email_sent": "Email sent to your email",
+    "not_a_member": "Not a member yet ?",
+    "check_phone_1": "A verification code has been sent to ",
+    "check_phone_2": "A verification code has been sent to your phone",
+    "enter_code": "Your SMS code is the key! Type it in:",
+    "please_wait": "Please wait...",
+    "count_down_label": "Remaining time:",
+    "resend_code": "Resend code",
+    "check_spam": "Can't find it? Please check your spam folder.",
+    "rest_pass_email_sent": "Sent password reset link. Please check your email",
+    "oops": "Oops!",
+    "cant_find_page": "We can't find that page.",
+    "loading": "Loading...",
+    "no_data": "No Data",
+    "price": "Price",
+    "filter_options": "Filter Options",
+    "item": "item",
+    "items": "items",
+    "total": "Total",
+    "found": "found",
+    "offline": "You are offline",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone"
+  },
+  "toast": {
+    "well_done": "Well done!",
+    "pass_changed": "Your password has successfully changed.",
+    "data_saved": "Your data has successfully saved.",
+    "something_wrong": "Something went wrong"
+  },
+  "user_profile_dropdown": {
+    "my_profile": "My Profile",
+    "my_projects": "My Projects",
+    "my_subscriptions": "My Subscriptions",
+    "referrals": "Referrals",
+    "billing": "Billing",
+    "payments": "Payments",
+    "statements": "Statements",
+    "my_statements": "My Statements",
+    "notifications": "Notifications",
+    "language": "Language",
+    "account_settings": "Account Settings",
+    "sign_out": "Sign Out"
+  },
+  "language": {
+    "en": "English",
+    "ir": "Persian",
+    "es": "Spanish",
+    "de": "German",
+    "tr": "Turkish",
+    "fr": "French"
+  },
+  "popover": {
+    "show_sidebar": "Show sidebar menu",
+    "explore": "Explore FintechGate",
+    "commission_set": "Commission setting",
+    "deactivate": "Deactivate"
+  },
+  "popconfirm": {
+    "attention": "Attention",
+    "deactive": "You are deactivating this item. Confirm?",
+    "delete": "You are deleting this item. Confirm?",
+    "cancel": "You are canceling this item. Confirm?"
+  },
+  "status_modal": {},
+  "badge": {
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "table": {
+    "action": "Action",
+    "name": "name",
+    "status": "status",
+    "role": "role",
+    "email": "email",
+    "title": "Title",
+    "code": "Code",
+    "commission": "Commission",
+    "tax_id": "Tax id",
+    "tax_office": "Tax office",
+    "address": "Address",
+    "iban": "Iban",
+    "url": "URL",
+    "psp": "PSP",
+    "integrator": "integrator",
+    "website": "Website",
+    "amount": "Amount",
+    "result_detail": "Result detail",
+    "invoiceNumber": "Invoice number",
+    "totalAmount": "Total amount",
+    "invoiceDate": "Invoice date",
+    "paymentNumber": "Payment number",
+    "paymentDate": "Payment date",
+    "search": {
+      "invoice_number": "invoiceNo",
+      "payment_number": "paymentNo"
+    }
+  },
+  "filter": { "day": "Day", "week": "Week", "year": "Year", "today": "Today" }
+}

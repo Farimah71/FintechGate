@@ -1,0 +1,7 @@
+.input-label {
+    @apply block text-sm mb-1 capitalize font-semibold dark:text-warning-light
+}
+
+.input-error {
+    @apply text-sm text-danger dark:text-danger -mt-4
+}

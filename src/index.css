@@ -1,0 +1,97 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import './tailwind/index.css';
+
+/* =========================
+        Fonts - Inter 
+    =========================
+*/
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/inter/INTER-LIGHT.TTF") format("truetype");
+}
+
+/* =========================
+        Fonts - Persian 
+    =========================
+*/
+@font-face {
+  font-family: "Yekan";
+  src: url("./assets/fonts/yekan/YekanBakhFaNum-Regular.ttf") format("truetype"),
+    url("./assets/fonts/yekan/YekanBakhFaNum-Regular.woff") format("woff"),
+    url("./assets/fonts/yekan/YekanBakh-Regular.ttf") format("truetype"),
+    url("./assets/fonts/yekan/YekanBakh-Regular.woff") format("woff");
+}
+
+@layer base {
+  :root {
+    --white: #ffffff;
+    --black: #000000;
+
+    --bg-color: --gray-100;
+    --text-color: var(--coal-100);
+
+    /* Grey colors */
+    --gray-100: #F9F9F9;
+    --gray-200: #F1F1F4;
+    --gray-300: #DBDFE9;
+    --gray-400: #C4CADA;
+    --gray-500: #99A1B7;
+    --gray-600: #78829D;
+    --gray-700: #4B5675;
+    --gray-800: #252F4A;
+    --gray-900: #071437;
+
+    /* Custom coal colors */
+    --coal-100: #15171C;
+    --coal-200: #13141A;
+    --coal-300: #111217;
+    --coal-400: #0F1014;
+    --coal-500: #0D0E12;
+    --coal-600: #0B0C10;
+    --coal-black: #000000;
+    --coal-clarity: rgba(#18191F, 50);
+
+    --primary: theme(colors.primary);
+    --secondary: theme(colors.secondary);
+    --light: theme(colors.light);
+    --success: theme(colors.success);
+    --info: theme(colors.info);
+    --danger: theme(colors.danger);
+    --warning: theme(colors.warning);
+    --dark: theme(colors.dark);
+  }
+
+}
+
+.dark {
+  --bg-color: #111318;
+  --text-color: var(--gray-400);
+}
+
+@media(prefers-color-scheme:dark) {
+  .dark {
+    --bg-color: #111318;
+    --text-color: var(--gray-400);
+  }
+}
+
+body {
+  font-size: 14px;
+  font-weight: 500;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  -webkit-transition: background-color 100ms linear;
+  -ms-transition: background-color 100ms linear;
+  transition: background-color 100ms linear;
+}
+
+:dir(ltr) {
+  font-family: "Inter", sans-serif;
+}
+
+:dir(rtl) {
+  font-family: "Yekan";
+}
