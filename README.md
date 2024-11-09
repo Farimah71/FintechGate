@@ -1,8 +1,5 @@
-```diff
-! This project is a sample created with permission and is shared solely to showcase my coding abilities.
-! Sensitive data, such as API keys, environment files, and other confidential information related to the company's
-! API services, has been removed for security reasons.
-```
+> [!NOTE]  
+> This project is a sample created with permission and is shared solely to showcase my coding abilities. Sensitive data, such as API keys, environment files, and other confidential information related to the API services, has been removed for security reasons.
 
 # FintechGate
 
