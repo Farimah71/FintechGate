@@ -3,7 +3,7 @@
 
 # FintechGate
 
-A responsive minimal accounting application which simplifies financial issues.
+A responsive minimal accounting application which simplifies financial :moneybag: issues.
 
 ## Features
 
