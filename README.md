@@ -3,7 +3,7 @@
 
 # FintechGate
 
-A responsive minimal accounting application which simplifies financial :moneybag: issues.
+This responsive project is a streamlined accounting application :moneybag: designed to handle essential financial tasks with ease. It allows users to record transactions, track expenses, and generate basic financial reports. The app focuses on simplicity and efficiency, providing a user-friendly interface for managing personal or small business finances without unnecessary complexity.
 
 ## Features
 
